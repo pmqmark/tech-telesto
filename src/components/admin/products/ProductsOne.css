@@ -1,0 +1,341 @@
+.Droneshead{
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    
+}
+.bg-Droneshead{
+    display: flex;
+}
+.bg-productsbutton{
+    width: 64vw;
+    display: flex;
+    
+    justify-content: flex-end;
+}
+.mainDroneSection{
+    display: grid;
+    margin-left: -30px;
+    justify-content: center;
+}
+.bg-RowOne{
+    display: flex;
+    
+}
+.dronesContainer{
+    display: flex;
+    width: 70vw;
+    background-color: #1A1A1A;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.droneRowone{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.droneRowone img{
+    width: 201px;
+    height: 109px;
+    border-radius: 12px;
+    
+    
+}
+.droneRowtwo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.droneRowtwo h1{
+    font-size: 15px;
+}
+.droneRowtwo h2{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+}
+.droneRowtwo img{
+    width: 24px;
+    height: 24px;
+    padding: 4px, 4px, 1px, 0px;
+    
+}
+.droneRowtwo P{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.droneRowthree{
+    width: 18vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 30px;
+}
+.droneRowthree h2{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.droneRowthree p{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 5px;
+    display: flex;
+}
+.pricesectionSpecfic{
+    display: flex;
+    margin-top: 20px;
+}
+.droneRowthree p.specificcut{
+    text-decoration: line-through;
+}
+.droneRowFour{
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 30px;    
+}
+.droneRowFour button{
+    width: 56px;
+    height: 31px;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: #FF0000;
+    background-color: black;
+    margin: 6px;
+    cursor: pointer;
+    
+}
+.bg-droneRowthree{
+    display: flex;
+}
+.droneRowFour .droneSpecificbutton{
+    color: #2CD402;
+}
+.ProductsModal{
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: #1A1A1A;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.ProductsModal input{
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(92, 91, 91);
+    border-radius: 5px;
+    color: #00A3FF;
+}
+.closeProductButton{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-bottom: 10px;
+}
+.dropdown-menu-products{
+    color: white;
+}
+.ProductsModal input.specificImageInput{
+    color: rgb(197, 196, 196);
+    border: none;
+}
+
+.ProductsModal input::placeholder{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+}
+.ProductSubmitButton{
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color:#00A3FF ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+#productsDropModal{
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 300px;
+    margin: 10px;
+    padding: 6px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+.dropdown-menu-products-modal{
+    background-color: #00A3FF;
+}
+@media screen and (max-width:1100px) {
+    .dronesContainer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .bg-RowOne{
+        display: grid;
+        margin: 30px;
+    }
+    .dronesContainer{
+        height: 250px;
+    }
+    .bg-droneRowthree{
+        display: grid;
+        margin-left: -60px;
+
+    }
+    .droneRowFour{
+        justify-content: center;
+    }
+    .bg-droneRowFour{
+        display: flex;
+    }
+}
+@media screen and (max-width:720px){
+    .dronesContainer{
+        width: 60vw;
+    }
+    .droneRowone img{
+        width: 151px;
+        height: 109px;
+        object-fit: cover;
+        border-radius: 12px;
+        
+        
+    }
+    .droneRowone,.droneRowtwo{
+        margin-left: 1px;
+    }
+    .droneRowtwo h2{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .droneRowtwo p{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .droneRowthree p{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:480px){
+    .bg-droneRowFour{
+        display: grid;
+    }
+    .droneRowFour button{
+        margin: 0;
+        width: 50px;
+        height: 30px;
+    }
+    
+    .bg-productsbutton{
+        width: 47vw;
+    }
+    .droneRowFour .droneSpecificbutton{
+        margin-top: -10px;
+    }
+    .droneRowone img{
+        width: 91px;
+        height: 91px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .Droneshead{
+        font-size: 17px;
+    }
+    .droneRowtwo h2{
+        font-size: 17px;
+    }
+    .droneRowtwo img{
+        width: 14px;
+        height: 14px;
+        padding: 4px, 4px, 1px, 0px;
+        
+    }
+    .droneRowtwo h1{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .droneRowtwo p{
+        font-size: 13px;
+    }
+    .droneRowthree{
+        margin-left: 35px;
+    }
+    .droneRowthree h2{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .droneRowthree p{
+        font-size: 9px;
+        width: 35px;
+        margin-top: -10px;
+    }
+    .pricesectionSpecfic{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .ProductsModal{
+        width: 250px;
+    }
+    .ProductsModal input{
+        width: 200px;
+    }
+    #productsDropModal{
+        width: 200px;
+        font-size: 15px;
+    }
+    .specificcut{
+        margin-bottom: 15px;
+    }
+}

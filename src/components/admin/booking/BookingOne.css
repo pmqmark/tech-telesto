@@ -1,0 +1,203 @@
+.BookingHead h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;   
+    margin-top: -42px; 
+}
+.bookingContainerTwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkBooking{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;  
+    color: white;
+    margin: 130px;
+    position: relative;
+    padding: 15px 100px;
+}
+.bookingImage img{
+    width: 93px;
+    height: 90px;
+    border-radius: 8px;
+    
+}
+.bookingImage{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.BookingContainer{
+    display: flex;
+    width: 68vw;
+    background-color: #1A1A1A;
+    height: 125px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bg-bookingCont{
+    display: grid;
+    justify-content: center;
+}
+.BookingTwo p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF0000;    
+}
+.BookingTwo h2{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 10px;
+}
+.BookingTwo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.BookingThree{
+    width: 11.5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 30px;
+}
+.BookingThree p{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 4px;
+}
+.BookingFour{
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 30px; 
+}
+.BookingFour button{
+    width: 93px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #098EDA;
+    margin: 6px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.BookingFour .BookingSpecificbutton {
+    background-color: #B80000;
+}
+.linkBooking:after{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 50%;
+    position: absolute;
+    background: #00A3FF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    margin-top: 10px;
+}
+.linkBooking:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+@media screen and (max-width:1300px) {
+    .linkBooking{
+        padding: 15px;
+    }
+}
+@media screen and (max-width:990px) {
+    .linkBooking{
+        padding: 0;
+        margin: 40px;
+        margin-top: 90px;
+    }
+    .BookingContainer{
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        height: 290px;
+    }
+    .bgBookingfour{
+        justify-content: center;
+        display: flex;
+    }
+    .BookingTwo{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .BookingFour{
+        justify-content: center;
+        width: 25vw;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .BookingTwo h2{
+        margin: 0;
+        text-align: center;
+    }
+    .bookingImage{
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .BookingTwo p{
+        text-align: center;
+    }
+    .BookingThree{
+        justify-content: center;
+        margin-left: 0;
+        width: 25vw;
+    }
+    .BookingThree p{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:480px){
+    .linkBooking{
+        font-size: 16px;
+        margin: 25px;
+        margin-top: 40px;
+    }
+    .BookingHead h1{
+        font-size: 16px;
+        margin-top: -29px;
+    }
+}

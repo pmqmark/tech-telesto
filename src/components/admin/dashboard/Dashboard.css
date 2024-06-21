@@ -1,0 +1,39 @@
+.AdminDashHead h1{
+    text-align: center;
+    font-size: 36px;
+}
+.MainItemAdmin{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.MainItemAdmin p{
+    
+    margin-top: 20px;
+    
+   
+}
+.dashBoardCard{
+    background-color: #1a1a1a;
+    padding: 30px;
+}
+@media screen and (max-width:480px) {
+    .MainItemAdmin{
+        display: grid;
+        justify-content: center;
+    }
+    .MainItemAdmin h1{
+        margin-top: 30px;
+    }.MainItemAdmin p{
+        margin-top: 0;
+    }
+    .AdminDashHead h1{
+        font-size: 20px;
+    }
+    .dashBoardCard{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,78 @@
+table, th, td {
+    border:1px solid #7D7D7D;
+    color: white;
+}
+table{
+    width: 100vw;
+    border-collapse: collapse;
+    color: #7D7D7D;
+    background-color: #1A1A1A;
+    margin-top: 300px;
+    
+}
+
+.widthHighTh{
+    width: 80vw;
+}
+th{
+    width: 10vw;
+    height: 70px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+}
+td{
+    color: transparent;
+    height: 400px;
+
+}
+.NewpostOne{
+    margin-left: 30px;
+    width:74vw ;
+    height: 50vh;
+    
+}
+.tablePosts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    overflow-x: auto;
+}
+@media screen and (max-width:750px) {
+    th{
+        width: 5vw;
+        font-size: 14px;
+        height: 40px;
+    }
+    .widthHighTh{
+        width: 20vw;
+    }
+    .NewpostOne{
+        width: 60vw;
+        margin-left: -150px;
+    }
+
+}
+@media screen and (max-width:480px){
+    .NewpostOne{
+        margin-left: 0px;
+    }
+    table{
+        margin-left: 0px;
+        width: 50vw;
+        margin-top: 100px;
+    }
+    th{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    td{
+        height: 250px;
+    }
+}

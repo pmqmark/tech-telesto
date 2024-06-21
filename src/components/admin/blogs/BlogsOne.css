@@ -1,0 +1,288 @@
+.blogsMain{
+    margin-left: 0px;
+}
+.blogsRowOne h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: white;
+    margin-top: -30px;
+}
+
+.blogsButton button{
+    width: 98px;
+    height: 41px;
+    background-color: #00A3FF;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+.blogsButton .blogsDelete{
+    background-color: red;
+}
+
+
+.BlogsRowthree h1{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 30vw;    
+}
+.innerBlogs button{
+    width: 63px;
+    height: 29px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+.carousel{
+    width: 70vw;
+}
+.carousel-item img{
+    margin: 50px;
+    height: 386px;
+    object-fit: cover;
+    position: absolute;
+}
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    
+}
+.blogsModal{
+    width: 300px;
+    background-color: #1A1A1A;
+    padding: 30px;
+    display: grid;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blogsModal input{
+    color: black;
+}
+.postBlogbutton{
+    background-color: #00A3FF;
+}
+.blogsModal input.imageInputBlogs{
+    color: white;
+}
+.caroInput{
+    height: 83px;
+    width: 40vw;
+    background-color: #00000061;
+    outline: none;
+    border: none;
+    z-index: 999;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.InnerInputBlogs{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    padding-top: 150px;
+    
+}
+.caroInputsmall{
+    height: 51px;
+    width: 20vw;
+    background-color: #00000061;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.caroInput::placeholder{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    
+}
+.caroInputsmall::placeholder{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+.postBgButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 11vw;
+}
+.innerBlogs .specificPost{
+    background-color: #00A3FF;
+}
+.innerBlogs{
+    width: 50vw;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    display: flex;
+}
+.innerBlogs h4{
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 35vw;   
+    margin: 20px; 
+}
+.sampleBlogCard{
+    height: 370px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    text-align: center;
+    color: white;
+}
+.sampleBlogCard h1{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-top: 15px;
+    
+}
+
+.sampleBlogCard img{
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+}
+.bg-blogscardSample{
+    display: grid;
+    grid-template-columns: auto  auto;
+    align-items: center;
+    margin: 50px;
+}
+.closeblogsModal{
+    width: 250px;
+    justify-content: flex-end;
+    display: flex;
+}
+@media screen and (max-width:920px) {
+    .BlogsRowthree h1{
+        font-size: 30px;
+        line-height: 40px;
+        width: 35vw;
+    }
+}
+@media screen and (max-width:720px){
+    .blogsMain{
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width:550px){
+    .blogsMain{
+        margin-left: -150px;
+    }
+}
+@media screen and (max-width:480px){
+    .blogsMain{
+        margin-left: 20px;
+    }
+    .BlogsRowthree h1{
+        font-size: 25px;
+        line-height: 34px;
+        width: 55vw;
+    }
+    .blogsRowOne h1{
+        font-size: 20px;
+    }
+    .innerBlogs{
+        width: 60vw;
+        margin-top: 10px;
+    }
+    .postBgButton{
+        width: 15vw;
+    }
+    .innerBlogs h4{
+        font-size: 9px;
+        line-height: 13px;
+    }
+    .innerBlogs button{
+        width: 55px;
+        height: 23px;
+        font-size: 8px;
+        border-radius: 0;
+    }
+    .sampleBlogCard{
+        height: 280px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: #1A1A1A;
+        text-align: center;
+        color: white;
+    }
+    .sampleBlogCard h1{
+        font-size: 24px;
+    }
+   
+    .carousel{
+        display: none;
+    }
+    .bg-blogscardSample{
+        margin: 20px;
+        justify-content: center;
+    }
+    .blogsButton button{
+        width: 55px;
+        height: 23px;
+        font-size: 8px;
+        border-radius: 0;
+        margin-bottom: 30px;
+    }
+    .blogsModal{
+        width: 250px;
+    }
+    .imageInputBlogs{
+        font-size: 14px;
+    }
+    .closeblogsModal{
+        width: 200px;
+    }
+}

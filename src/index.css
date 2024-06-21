@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Importing Custom Font*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100&display=swap");
+
+body {
+    background-color: black;
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+}

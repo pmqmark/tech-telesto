@@ -1,0 +1,26 @@
+PROJECT DOCUMENTATION;
+----------------------
+
+ROUTES;
+-------
+{--*Please not the route alphabets should be small case*--}
+
+USER;
+-----
+HOME       = "/"
+CATEGORY   = "/category"
+PRODUCTS   = "/category/products"
+BUY        = "/category/products/{product_id}"
+BOOKING    = "/bookings"
+
+ADMIN;
+------
+LOGIN        = "/admin/login"
+PRODUCTS     = "/admin/products"
+PRODUCT_ADD  = "/admin/products/addProduct"
+CATEGORY     = "/admin/category"
+CATEGORY_Add = "/admin/category/addCategory"
+BOOKINGS     = "/admin/bookings"
+ORDERS       = "/admin/orders"
+BLOGS        = "/admin/blogs"
+BLOGS_ADD    = "/admin/blogs/addBlog"

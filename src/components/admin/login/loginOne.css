@@ -1,0 +1,158 @@
+.LoginMain{
+    background-color: black;
+    color: white;
+    height:100vh;
+}
+.ContainerLogin{
+    display: flex;
+}
+
+.imageOnelogin{
+    height: 33vh;
+    margin: 0 auto;
+    z-index: 10;
+    margin-top: 120px;
+    
+}
+.LeftImageSection{
+    display: grid;
+}
+.verticalLine{
+    width: 1px;
+    background-color:#717171;
+    height: 86vh;
+    margin-top: 50px;
+}
+.imageTwologin{
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: -340px;
+}
+.input-area-login{
+    text-align: center;
+}
+.textAreaTop h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 225px;
+}
+.textAreaTop p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 50px;
+    
+}
+.sectionright{
+    text-align: center;
+    margin:  0 auto;
+}
+.textInputOne,.textInputpass{
+    width: 28vw;
+    height: 62px;
+    border-radius: 14px;
+    margin-top: 15px;
+    outline: none;
+    border: 1px solid;
+    font-size: 15px;
+    font-family: Montserrat;
+    padding-left: 20px;
+    color: black;
+}
+.textInputpass{
+    margin-top: 30px;
+}
+.textInputOne::placeholder,.textInputpass::placeholder{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: black;
+    
+}
+.resetPass {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.resetPass p{
+    margin-top: 10px;
+}
+.input-area-login button{
+    width: 142px;
+    height: 62px;
+    border-radius: 14px;
+    background-color: #00A3FF;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align:center;
+    
+    
+}
+@media screen and (max-width:780px) {
+    .ContainerLogin{
+        display: grid;
+    }
+    .verticalLine{
+        display: none;
+    }
+    .imageTwologin{
+        height: 20vh;
+        width: 90vw;
+        margin-top: -40px;
+        object-fit: cover;
+        
+    }
+    .imageOnelogin{
+        margin-top: 0;
+        height: 15vh;
+        width: 45vw;
+        object-fit:cover ;
+        
+    }
+    .LeftImageSection{
+        display: grid;
+        margin-top: 50px;
+        position: relative;
+        justify-content: center;
+    }
+    .textAreaTop h1{
+        display: none;
+    }
+    .textInputOne,.textInputpass{
+        width: 60vw;
+    }
+}
+@media screen and (max-width:480px){
+    .textInputOne,.textInputpass{
+        width: 75vw;
+    }
+    .resetPass{
+        font-size: 12px;
+    }
+    .input-area-login button{
+        height: 40px;
+        width: 120px;
+        font-size: 16px;
+    }
+}

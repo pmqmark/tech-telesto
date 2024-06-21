@@ -1,0 +1,411 @@
+.OrdersHead h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 40px;
+}
+.ordersMain{
+    display: grid;
+}
+.MappaddedOrders{
+    display: grid;
+    margin-top: 30px;
+}
+.OrdersContainer{
+    display: flex;
+    width: 71vw;
+    background-color: #1A1A1A;
+    height: 113px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.OrdersTwo{
+    display: flex;
+    align-items: center;
+   
+    margin-left: 30px;
+}
+#OrdersDrop{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    outline: none;
+    border: none;
+    display: none;
+}
+.dropdown-menu-Orders{
+    font-family: Montserrat;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    
+}
+.totalpriceArea{
+    display: flex;
+    justify-content: space-between;
+}
+.OrdersThree{
+    width: 11.5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 60px;
+}
+.OrdersFour{
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 30px; 
+}
+.h2OrdersMain{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.POrdersMain{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+    margin-top: 10px;
+}
+.OrdersSpecificbutton{
+    width: 93px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #FF0000;
+    margin: 6px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.OrdersFive{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 30px; 
+}
+.OrdersContainerBottom{
+    width: 49vw;
+    height: 485px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.bottomOrders{
+    width: 44vw;
+    height: 113px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    
+}
+.BottomRowOrders{
+    display: flex;
+}
+.ordersOneBottom{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.ordersOneBottom img{
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+}
+.h2OrdersMainBottom{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+    color: white;
+    
+}
+.POrdersMainBottom{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+.OrdersTwoBottom,.OrdersThreeBottom,.OrdersFourBottom,.OrdersFiveBottom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 15px;
+}
+.OrdersThreeBottom,.OrdersFourBottom,.OrdersFiveBottom{
+    margin-left: 50px;
+}
+.PricedetilsContainer{
+    width: 20vw;
+    height: 245px;
+    background-color: #1A1A1A;
+    margin: 30px;
+    margin-top: 40px;
+    
+}
+.totalPrice{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+
+}
+.totalPrice h1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: white;
+    margin: 20px;
+}
+.AddOnPrice{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.AddOnPrice p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin: 20px;
+}
+.paidTextbottom{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    margin: 10px;
+}
+.OrderDetailsRight{
+    width: 20vw;
+    height: 220px;
+    border: 1px solid white;
+    margin: 30px;
+    margin-top: -10px;
+    display: flex;
+    color: white;
+}
+.OrdersAddress h4{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px;
+}
+.OrdersAddress p {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #898989;
+    margin: 10px;   
+}
+.shippingDetails h4,.paymentDetails h4{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px;
+}
+.shippingDetails p ,.paymentDetails p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #898989; 
+    margin: 10px;
+}
+@media screen and (max-width:1100px) {
+    .BottomRowOrders{
+        display: grid;
+        justify-content: center;
+    }
+    .bg-OrdersContainerBottom{
+        display: flex;
+        justify-content: center;
+    }
+    .bg-priceDetailContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .OrdersContainerBottom{
+        height: 400px;
+        width: 70vw;
+    }
+    .bottomOrders{
+        width: 65vw;
+    }
+    .PricedetilsContainer{
+        width: 30vw;
+    }
+    .OrderDetailsRight{
+        padding-top: 20px;
+        margin-top: 0px;
+        margin: 30px;
+        height: 245px;
+        width: 30vw;
+    }
+}
+@media screen and (max-width:920px){
+    .h2OrdersMain{
+        font-size: 16px;
+    }
+    .POrdersMain{
+        font-size: 12px;
+    }
+    .OrdersFive{
+        width: 5vw;
+    }
+    #OrdersDrop{
+        font-size: 16px;
+    }
+    .OrdersSpecificbutton{
+        width:  56px;
+        font-size: 12px;
+        height:  31px;
+    }
+        
+    
+}
+@media screen and (max-width:720px){
+    .OrdersContainer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .OrdersFive{
+        justify-content: center;
+    }
+    .BottomRowOrders{
+        justify-content: flex-start;
+    }
+    .bg-OrdersContainerBottom{
+        justify-content: flex-start;
+    }
+    .bg-priceDetailContainer{
+        justify-content: flex-start;
+    }
+    .PricedetilsContainer{
+        margin: 0;
+    }
+    .OrdersAddress p,.shippingDetails p ,.paymentDetails p{
+        line-height: 12px;
+    }
+    .OrdersAddress h4,.shippingDetails h4,.paymentDetails h4{
+        line-height: 12px;
+    }
+    .ordersMain{
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width:480px){
+    .ordersMain{
+        margin-left: -10px;
+    }
+    .OrdersHead h1{
+        font-size: 16px;
+        margin-top: -25px;
+    }
+    .OrdersFive{
+        justify-content: flex-end;
+        width: 55vw;
+        position: absolute;
+        margin-top: 150px;
+    }
+    .OrdersContainer{
+        height: 200px;
+        grid-template-columns: auto auto;
+    }
+    .OrdersContainerBottom{
+        border: none;
+        margin-top: -30px;
+    }
+    #OrdersDrop,.OrdersTwo,.OrdersFour{
+        width: 80px;
+        margin-top: 10px;
+    }
+    .OrdersThree{
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    .OrdersFour{
+        margin-left: 90px;
+    }
+    .bg-priceDetailContainer{
+        display: grid;
+        margin: 0 auto;
+    }
+    .PricedetilsContainer,.OrderDetailsRight{
+        width: 55vw;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .PricedetilsContainer{
+        margin-top: -120px;
+    }
+    .totalPrice{
+        margin-top: 40px;
+    }
+    .OrdersSpecificbutton{
+        font-size: 10px;
+    }
+    .OrdersFourBottom{
+        margin-left: -0px;
+        margin-top: -30px;
+    }
+    .OrdersTwoBottom{
+        margin-left: -10px;
+    }
+    
+}
+
